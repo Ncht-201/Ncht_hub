@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* si querés fondo negro */
+    background-color: #000; /* fondo negro */
     color: white; /* texto blanco */
 }
 
@@ -107,7 +107,7 @@ body {
     background-color: #222;
 }
 
-/* Opcional: en PC mostrar el menú horizontal */
+/* Navbar en PC */
 @media (min-width: 768px) {
 
     .nav-toggle {
@@ -135,5 +135,69 @@ body {
         border-radius: 6px;
     }
 }
+
+/* SECCIÓN: TODOS LOS JUEGOS */
+.games-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.games-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de tarjetas */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjeta individual */
+.game-card {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #222;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Título del juego */
+.game-card h3 {
+    margin: 10px 0 15px;
+}
+
+/* Botones */
+.game-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.game-links a {
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Mediafire celeste */
+.btn-mf {
+    background-color: #00b4ff;
+}
+
+/* Mega rojo */
+.btn-mg {
+    background-color: #ff004c;
+}
+
 
 
