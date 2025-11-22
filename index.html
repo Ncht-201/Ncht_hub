@@ -13,6 +13,35 @@
 
 <body>
 
+    <!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">Museo de Juegos</div>
+
+        <!-- Botón hamburguesa -->
+        <div class="nav-toggle" onclick="toggleMenu()">
+            &#9776;
+        </div>
+
+        <!-- Menú -->
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Buscar</a></li>
+            <li><a href="#">Todos los juegos</a></li>
+            <li><a href="#">Guías y trucos</a></li>
+            <li><a href="#">Programas útiles</a></li>
+        </ul>
+    </div>
+</nav>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("navMenu");
+    menu.classList.toggle("active");
+}
+</script>
+
+
 <section class="hero">
     <div class="hero-content">
         <img src="imagenes/banner Ncht.png" alt="Banner Ncht" class="hero-logo">
