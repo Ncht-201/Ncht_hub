@@ -17,6 +17,16 @@
     <div class="hero-content">
         <img src="imagenes/banner Ncht.png" alt="Banner Ncht" class="hero-logo">
 
+.hero {
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
         <h1 class="hero-title">Inicio</h1>
 
         <p class="hero-text">
