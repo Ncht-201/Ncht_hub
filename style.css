@@ -1,46 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Museo de Juegos</title>
-
-    <!-- Fuente Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-    <!-- Tu CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<section class="hero">
-    <div class="hero-content">
-        <img src="imagenes/banner Ncht.png" alt="Banner Ncht" class="hero-logo">
-
-.hero {
-    text-align: center;
+/* Fuente principal */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* si querés fondo negro */
+    color: white; /* texto blanco */
 }
 
+/* Sección principal */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Contenedor centrado */
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
 }
 
+/* Imagen del banner */
+.hero-logo {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+}
 
-        <h1 class="hero-title">Inicio</h1>
+/* Título */
+.hero-title {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
 
-        <p class="hero-text">
-            El propósito de esta página es el poder tener un fácil acceso a los juegos
-            de mi museo personal de juegos.
-        </p>
+/* Texto */
+.hero-text {
+    font-size: 1.1rem;
+    margin: 15px 0;
+}
 
-        <p class="hero-text">
-            La mayoría de los juegos estarán disponibles tanto en 
-            <span class="mf">Mediafire</span> y en 
-            <span class="mg">Mega</span> de forma gratuita y sin contraseñas.
-        </p>
-    </div>
-</section>
+/* Colores especiales */
+.mf {
+    color: #00b4ff;
+    font-weight: bold;
+}
 
-</body>
-</html>
+.mg {
+    color: #ff004c;
+    font-weight: bold;
+}
+
