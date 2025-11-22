@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Museo de Juegos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <img src="TU_IMAGEN_DEL_BANNER.png" alt="Logo NCHT" class="hero-logo">
+
+        <h1 class="hero-title">Inicio</h1>
+
+        <p class="hero-text">
+            El propósito de esta página es el poder tener un fácil acceso a los juegos
+            de mi museo personal de juegos.
+        </p>
+
+        <p class="hero-text">
+            La mayoría de los juegos estarán disponibles tanto en 
+            <span class="mf">Mediafire</span> y en 
+            <span class="mg">Mega</span> de forma gratuita y sin contraseñas.
+        </p>
+    </div>
+</section>
+
+</body>
+</html>
