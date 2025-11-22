@@ -49,3 +49,91 @@ body {
     font-weight: bold;
 }
 
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background-color: #111;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.nav-toggle {
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    display: block;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-menu.active {
+    display: flex;
+}
+
+.nav-menu li {
+    border-top: 1px solid #333;
+}
+
+.nav-menu li a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-menu li a:hover {
+    background-color: #222;
+}
+
+/* Opcional: en PC mostrar el menú horizontal */
+@media (min-width: 768px) {
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex !important;
+        flex-direction: row;
+        gap: 20px;
+        background: none;
+        width: auto;
+    }
+
+    .nav-menu li {
+        border: none;
+    }
+
+    .nav-menu li a {
+        padding: 8px 12px;
+    }
+
+    .nav-menu li a:hover {
+        background-color: #333;
+        border-radius: 6px;
+    }
+}
+
+
